@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpack Tester</title>
+
+    <!-- this wont work as we make imports from 3rd party lkibraries that the browser doesnt know how to handle -->
+    <!-- <script src="../src/index.js"></script> -->
+
+    <!-- we have to use webpack to create a bundle, which incorporates our 3rd party lodash library within the code itself, so we can
+    reference anything we need within that bundled file itself. -->
+    <script src="../dist/main.js"></script>
+</head>
+<body>
+    <p>Hey</p>
+</body>
+</html>

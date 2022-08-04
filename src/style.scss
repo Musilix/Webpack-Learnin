@@ -1,0 +1,24 @@
+$text: orange;
+$bg: black;
+
+html, body{
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    color: $text;
+    background: $bg;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body p{
+    font-size: 54px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
